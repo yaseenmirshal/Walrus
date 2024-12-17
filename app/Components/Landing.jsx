@@ -10,24 +10,29 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="bg-gray-50 text-gray-800 font-sans">
+    <div className="bg-gray-50 text-gray-800 ">
     {/* Hero Section */}
     <section
   className="relative bg-blue-900 text-white h-screen py-28 bg-cover bg-center flex items-center justify-center"
   style={{ backgroundImage: "url('https://i.pinimg.com/736x/f9/6a/de/f96adeee214db903d22ac52eaec825dd.jpg')" }} // Replace with your image path
 >
   <div className="absolute inset-0 bg-blue-900 bg-opacity-70"></div> {/* Overlay */}
-  <div className="relative text-center px-4" data-aos="fade-up">
-    <h1 className="text-5xl font-bold mb-4">Walrus Technical Services</h1>
-    <p className="text-lg max-w-2xl mx-auto mb-6">
+  <div 
+    className="relative md:text-center text-left px-4 md:pl-12" 
+    data-aos="fade-up"
+  >
+    <h1 className="text-4xl md:text-5xl font-bold mb-4">Walrus Technical Services</h1>
+    <p className="text-lg md:text-xl max-w-2xl mx-auto md:mx-0 mb-6">
       Strong technical solutions tailored to meet your unique needs. We focus on{" "}
       <span className="font-semibold">customer satisfaction</span>, professionalism, and delivering value.
     </p>
-    <button className="bg-[#ddb264] text-blue-900 px-6 py-3 rounded-lg shadow-md hover:bg-yellow-500 transition duration-300">
-      Get Started
-    </button>
+    <button className="bg-gray-200 text-gray-800 font-semibold px-5 py-2 rounded-lg shadow-md hover:bg-gray-300 transition duration-300">
+  Contact Us
+</button>
+
   </div>
 </section>
+
 
 
 
