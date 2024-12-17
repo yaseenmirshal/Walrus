@@ -14,11 +14,11 @@ export default function Home() {
     {/* Hero Section */}
     <section
   className="relative bg-blue-900 text-white h-screen py-28 bg-cover bg-center flex items-center justify-center"
-  style={{ backgroundImage: "url('https://i.pinimg.com/736x/f9/6a/de/f96adeee214db903d22ac52eaec825dd.jpg')" }} // Replace with your image path
+  style={{ backgroundImage: "url('./walltech.jpeg')" }} // Replace with your image path
 >
   <div className="absolute inset-0 bg-black bg-opacity-40"></div> {/* Overlay */}
   <div 
-    className="relative md:text-center text-left px-4 md:pl-12" 
+    className="relative md:text-center text-left px-5 md:pl-12" 
     data-aos="fade-up"
   >
     <h1 className="text-4xl md:text-5xl font-bold mb-4">Walrus Technical Services</h1>
@@ -26,10 +26,11 @@ export default function Home() {
       Strong technical solutions tailored to meet your unique needs. We focus on{" "}
       <span className="font-semibold">customer satisfaction</span>, professionalism, and delivering value.
     </p>
+    <a href="tel:+971 507 304 759">
     <button className="bg-gray-200 text-gray-800 font-semibold px-5 py-2 rounded-lg shadow-md hover:bg-gray-300 transition duration-300">
   Contact Us
 </button>
-
+</a>
   </div>
 </section>
 
@@ -187,7 +188,7 @@ export default function Home() {
             Reach out to us today to discover how Warlus Technical Services can help your business thrive.
           </p>
           <a
-  href="mailto:info@warlusservices.com"
+  href="tel:+971 507 304 759"
   className="bg-gray-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-700 transition duration-300"
 >
   Contact Us

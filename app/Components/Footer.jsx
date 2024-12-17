@@ -68,8 +68,9 @@ export default function Footer() {
           <div className="flex flex-col items-start" data-aos="fade-up" data-aos-delay="200">
             <h3 className="text-xl font-semibold mb-4 text-gray-900">Contact Us</h3>
             <ul className="space-y-2 text-left">
-              <li>Location: India - UAE</li>
-              <li>Email: info@walrus.com</li>
+              <li>Location: HH Shaikh Bin Saqar Al Qassimi, Dubai, UAE P.O Box 4521</li>
+              <li>Email: info@walrus.ae</li>
+              <li>Contact: +971 507 304 759</li>
             </ul>
 
             {/* Social Media Icons */}

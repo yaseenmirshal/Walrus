@@ -52,15 +52,9 @@ export default function Navbar() {
             Services
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
           </a>
+          
           <a
-            href="#contact"
-            className="relative group hover:text-black transition-colors duration-300"
-          >
-            Contact
-            <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
-          </a>
-          <a
-            href="#contact"
+            href="tel:+971 507 304 759"
             className="ml-4 px-4 py-2 bg-[#001f3f] text-white font-semibold rounded hover:bg-black transition-colors duration-300 text-sm md:text-base"
           >
             Get in Touch
