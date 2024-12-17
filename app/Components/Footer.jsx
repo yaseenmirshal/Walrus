@@ -81,26 +81,26 @@ export default function Footer() {
 
 <div className="flex space-x-4 mt-4">
   {/* Facebook */}
-  <a href="https://www.facebook.com/share/1DU9en7X2q/" target="_blank" rel="noopener noreferrer">
+  <a href="" target="_blank" rel="noopener noreferrer">
     <FaFacebookF className="text-2xl hover:text-blue-500" />
   </a>
   
   {/* Instagram */}
-  <a href="https://www.instagram.com/daamworld/profilecard/?igsh=MWNuamo0amYxM2lxMg==" target="_blank" rel="noopener noreferrer">
+  <a href="" target="_blank" rel="noopener noreferrer">
     <FaInstagram className="text-2xl hover:text-pink-500" />
   </a>
   
   {/* Pinterest */}
-  <a href="https://pin.it/5PdTXSXnx" target="_blank" rel="noopener noreferrer">
+  <a href="" target="_blank" rel="noopener noreferrer">
     <FaPinterestP className="text-2xl hover:text-red-600" />
   </a>
   
   {/* YouTube */}
-  <a href="https://youtube.com/@daamworld?si=yk3vNas0FwcYj-Z8" target="_blank" rel="noopener noreferrer">
+  <a href="" target="_blank" rel="noopener noreferrer">
     <FaYoutube className="text-2xl hover:text-red-500" />
   </a>
 {/* X Logo using SVG from a public CDN */}
-<a href="https://x.com/DaamWorld?t=BrQI5z7rs7sq9axlaBF64g&s=09" target="_blank" rel="noopener noreferrer">
+<a href="" target="_blank" rel="noopener noreferrer">
   <img
     src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg"
     alt="X Logo"
