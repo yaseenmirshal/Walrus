@@ -16,7 +16,7 @@ export default function Home() {
   className="relative bg-blue-900 text-white h-screen py-28 bg-cover bg-center flex items-center justify-center"
   style={{ backgroundImage: "url('https://i.pinimg.com/736x/f9/6a/de/f96adeee214db903d22ac52eaec825dd.jpg')" }} // Replace with your image path
 >
-  <div className="absolute inset-0 bg-blue-900 bg-opacity-70"></div> {/* Overlay */}
+  <div className="absolute inset-0 bg-black bg-opacity-40"></div> {/* Overlay */}
   <div 
     className="relative md:text-center text-left px-4 md:pl-12" 
     data-aos="fade-up"
