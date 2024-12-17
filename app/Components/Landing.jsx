@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <div className="bg-gray-50 text-gray-800 font-sans">
     {/* Hero Section */}
-<section
-  className="relative bg-blue-900 text-white pt-44 py-28 bg-cover bg-center"
-  style={{ backgroundImage: "url('https://wallpapers.com/images/featured/technology-w65hwkhmusntb0j9.jpg')" }} // Replace with your image path
+    <section
+  className="relative bg-blue-900 text-white h-screen py-28 bg-cover bg-center flex items-center justify-center"
+  style={{ backgroundImage: "url('https://i.pinimg.com/736x/f9/6a/de/f96adeee214db903d22ac52eaec825dd.jpg')" }} // Replace with your image path
 >
   <div className="absolute inset-0 bg-blue-900 bg-opacity-70"></div> {/* Overlay */}
-  <div className="relative container mx-auto text-center px-4" data-aos="fade-up">
+  <div className="relative text-center px-4" data-aos="fade-up">
     <h1 className="text-5xl font-bold mb-4">Walrus Technical Services</h1>
     <p className="text-lg max-w-2xl mx-auto mb-6">
       Strong technical solutions tailored to meet your unique needs. We focus on{" "}
@@ -28,6 +28,7 @@ export default function Home() {
     </button>
   </div>
 </section>
+
 
 
       {/* Our Values Section */}

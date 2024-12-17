@@ -2,7 +2,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import { FaFacebookF, FaInstagram, FaPinterestP, FaYoutube, FaTwitter } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaPinterestP, FaYoutube } from 'react-icons/fa';
 
 export default function Footer() {
   useEffect(() => {
@@ -13,112 +13,87 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="bg-black text-white py-12">
+    <footer className="bg-gray-100 text-gray-800 py-12">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-20">
-          {/* DaamWorld Logo and Text */}
+
+          
+          {/* Company Info */}
           <div className="flex flex-col items-start" data-aos="fade-up">
-           {/* <img
-            src="./pictures/daamlogo.png"
-            alt="DaamWorld Logo"
-            className="w-[1px] h-[1px] sm:w-[240px] sm:h-[56px] lg:w-[260px] lg:h-[60px] object-contain"
-          /> */}
+          <img width={70} height={70} className='pb-5' src="./walruslogo.png" alt="logo" />
             <p className="text-left text-md">
-            Walrus Technical Services specializes in Pool MEP, Wellness Projects, Lighting, and Fabrication with 20+ years of experience.
+              Walrus Technical Services specializes in Pool MEP, Wellness Projects, Lighting, and Fabrication with 20+ years of experience.
             </p>
           </div>
 
-
-          {/* Additional Content */}
+          {/* Our Products */}
           <div className="flex flex-col items-start" data-aos="fade-up" data-aos-delay="300">
-            <h3 className="text-xl font-semibold mb-4">Our Products</h3>
+            <h3 className="text-xl font-semibold mb-4 text-gray-900">Our Products</h3>
             <ul className="space-y-2 text-left">
               <li>
-                <a href="#faucets" className="hover:text-blue-400">Installation & Repair</a>
+                <a href="#faucets" className="hover:text-blue-600">Installation & Repair</a>
               </li>
               <li>
-                <a href="#showers" className="hover:text-blue-400">MEP Works</a>
+                <a href="#showers" className="hover:text-blue-600">MEP Works</a>
               </li>
               <li>
-                <a href="#toilets" className="hover:text-blue-400">Rectification</a>
+                <a href="#toilets" className="hover:text-blue-600">Rectification</a>
               </li>
               <li>
-                <a href="#accessories" className="hover:text-blue-400">Tiling & Civil Works</a>
+                <a href="#accessories" className="hover:text-blue-600">Tiling & Civil Works</a>
               </li>
             </ul>
           </div>
 
           {/* Quick Links */}
           <div className="flex flex-col items-start" data-aos="fade-up" data-aos-delay="100">
-            <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-xl font-semibold mb-4 text-gray-900">Quick Links</h3>
             <ul className="space-y-2 text-left">
               <li>
-                <a href="#home" className="hover:text-blue-400">Home</a>
+                <a href="#home" className="hover:text-blue-600">Home</a>
               </li>
               <li>
-                <a href="#about" className="hover:text-blue-400">About</a>
+                <a href="#about" className="hover:text-blue-600">About</a>
               </li>
               <li>
-                <a href="#services" className="hover:text-blue-400">Services</a>
+                <a href="#services" className="hover:text-blue-600">Services</a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-blue-400">Contact</a>
+                <a href="#contact" className="hover:text-blue-600">Contact</a>
               </li>
             </ul>
           </div>
 
           {/* Contact Us */}
           <div className="flex flex-col items-start" data-aos="fade-up" data-aos-delay="200">
-            <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-xl font-semibold mb-4 text-gray-900">Contact Us</h3>
             <ul className="space-y-2 text-left">
               <li>Location: India - UAE</li>
-              {/* <li>Phone: +1 234 567 890</li> */}
-              <li>Email: info@warlus.com</li>
-              {/* <li>WhatsApp: +1 234 567 891</li> */}
+              <li>Email: info@walrus.com</li>
             </ul>
-           
 
-
-<div className="flex space-x-4 mt-4">
-  {/* Facebook */}
-  <a href="" target="_blank" rel="noopener noreferrer">
-    <FaFacebookF className="text-2xl hover:text-blue-500" />
-  </a>
-  
-  {/* Instagram */}
-  <a href="" target="_blank" rel="noopener noreferrer">
-    <FaInstagram className="text-2xl hover:text-pink-500" />
-  </a>
-  
-  {/* Pinterest */}
-  <a href="" target="_blank" rel="noopener noreferrer">
-    <FaPinterestP className="text-2xl hover:text-red-600" />
-  </a>
-  
-  {/* YouTube */}
-  <a href="" target="_blank" rel="noopener noreferrer">
-    <FaYoutube className="text-2xl hover:text-red-500" />
-  </a>
-{/* X Logo using SVG from a public CDN */}
-<a href="" target="_blank" rel="noopener noreferrer">
-  <img
-    src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg"
-    alt="X Logo"
-    className="w-8 h-8 mt-[-4px] hover:opacity-80 "
-  />
-</a>
-
-
-</div>
-
-
+            {/* Social Media Icons */}
+            <div className="flex space-x-4 mt-4">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <FaFacebookF className="text-2xl text-gray-600 hover:text-blue-600" />
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className="text-2xl text-gray-600 hover:text-pink-600" />
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <FaPinterestP className="text-2xl text-gray-600 hover:text-red-600" />
+              </a>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <FaYoutube className="text-2xl text-gray-600 hover:text-red-500" />
+              </a>
+              
+            </div>
           </div>
-
         </div>
 
-        {/* Footer Bottom Section */}
-        <div className="mt-12 border-t pt-8">
-          <p className="text-left text-sm text-gray-400">
+        {/* Footer Bottom */}
+        <div className="mt-12 border-t border-gray-300 pt-8">
+          <p className="text-left text-sm text-gray-500">
             © 2024 yminnovation. All rights reserved.
           </p>
         </div>
