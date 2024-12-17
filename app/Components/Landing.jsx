@@ -18,7 +18,7 @@ export default function Home() {
 >
   <div className="absolute inset-0 bg-blue-900 bg-opacity-70"></div> {/* Overlay */}
   <div className="relative container mx-auto text-center px-4" data-aos="fade-up">
-    <h1 className="text-5xl font-bold mb-4">Warlus Technical Services</h1>
+    <h1 className="text-5xl font-bold mb-4">Walrus Technical Services</h1>
     <p className="text-lg max-w-2xl mx-auto mb-6">
       Strong technical solutions tailored to meet your unique needs. We focus on{" "}
       <span className="font-semibold">customer satisfaction</span>, professionalism, and delivering value.
