@@ -23,17 +23,17 @@ export default function Navbar() {
         className="container mx-auto flex justify-between items-center px-6 py-4 md:py-5"
         data-aos="fade-down"
       >
-        {/* Logo */}
+        
         <div className="text-2xl font-bold flex-shrink-0">
-          <a href="#">
+          {/* <a href="#">
             <img
-              width={130}
+              width={10}
               height={10}
               src="./pictures/daamlogo.png"
               alt="Logo"
               className="filter brightness-110"
             />
-          </a>
+          </a> */}
         </div>
 
         {/* Desktop Menu */}

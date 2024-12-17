@@ -18,11 +18,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-20">
           {/* DaamWorld Logo and Text */}
           <div className="flex flex-col items-start" data-aos="fade-up">
-           <img
+           {/* <img
             src="./pictures/daamlogo.png"
             alt="DaamWorld Logo"
-            className="w-[200px] h-[50px] sm:w-[240px] sm:h-[56px] lg:w-[260px] lg:h-[60px] object-contain"
-          />
+            className="w-[1px] h-[1px] sm:w-[240px] sm:h-[56px] lg:w-[260px] lg:h-[60px] object-contain"
+          /> */}
             <p className="text-left text-md">
             Walrus Technical Services specializes in Pool MEP, Wellness Projects, Lighting, and Fabrication with 20+ years of experience.
             </p>
@@ -34,16 +34,16 @@ export default function Footer() {
             <h3 className="text-xl font-semibold mb-4">Our Products</h3>
             <ul className="space-y-2 text-left">
               <li>
-                <a href="#faucets" className="hover:text-blue-400">Faucets</a>
+                <a href="#faucets" className="hover:text-blue-400">Installation & Repair</a>
               </li>
               <li>
-                <a href="#showers" className="hover:text-blue-400">Showers</a>
+                <a href="#showers" className="hover:text-blue-400">MEP Works</a>
               </li>
               <li>
-                <a href="#toilets" className="hover:text-blue-400">Toilets & Bidets</a>
+                <a href="#toilets" className="hover:text-blue-400">Rectification</a>
               </li>
               <li>
-                <a href="#accessories" className="hover:text-blue-400">Accessories</a>
+                <a href="#accessories" className="hover:text-blue-400">Tiling & Civil Works</a>
               </li>
             </ul>
           </div>
@@ -73,7 +73,7 @@ export default function Footer() {
             <ul className="space-y-2 text-left">
               <li>Location: India - UAE</li>
               {/* <li>Phone: +1 234 567 890</li> */}
-              <li>Email: info@daamworld.com</li>
+              <li>Email: info@warlus.com</li>
               {/* <li>WhatsApp: +1 234 567 891</li> */}
             </ul>
            

@@ -38,7 +38,7 @@ export default function Home() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Customer Satisfaction */}
-            <div className="p-6 bg-gray-100 rounded-lg shadow-lg" data-aos="fade-right">
+            <div className="p-6 bg-gray-100 rounded-lg shadow-lg" data-aos="fade-left">
               <FiCheckCircle className="text-blue-900 text-4xl mb-4" />
               <h3 className="text-2xl font-semibold text-blue-900 mb-4">Customer Satisfaction</h3>
               <p className="text-gray-700">
@@ -74,7 +74,7 @@ export default function Home() {
             Why Choose Us?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="p-6 bg-white rounded-lg shadow-lg" data-aos="fade-right">
+            <div className="p-6 bg-white rounded-lg shadow-lg" data-aos="fade-left">
               <FiSettings className="text-blue-900 text-4xl mb-4" />
               <h4 className="text-xl font-semibold text-blue-900 mb-4">Customized Solutions</h4>
               <p className="text-gray-700">
