@@ -187,11 +187,12 @@ export default function Home() {
             Reach out to us today to discover how Warlus Technical Services can help your business thrive.
           </p>
           <a
-            href="mailto:info@warlusservices.com"
-            className="bg-yellow-400 text-blue-900 px-6 py-3 rounded-lg shadow-md hover:bg-yellow-500 transition duration-300"
-          >
-            Contact Us
-          </a>
+  href="mailto:info@warlusservices.com"
+  className="bg-gray-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-gray-700 transition duration-300"
+>
+  Contact Us
+</a>
+
         </div>
       </section>
     </div>
