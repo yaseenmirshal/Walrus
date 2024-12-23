@@ -32,21 +32,21 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8 lg:space-x-16 font-medium">
           <a
-            href="#home"
+            href="/"
             className="relative group hover:text-black transition-colors duration-300"
           >
             Home
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="#about"
+            href="./AboutUs"
             className="relative group hover:text-black transition-colors duration-300"
           >
             About
             <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
           </a>
           <a
-            href="#products"
+            href="/Services"
             className="relative group hover:text-black transition-colors duration-300"
           >
             Services
@@ -90,7 +90,7 @@ export default function Navbar() {
         } overflow-hidden md:hidden bg-white text-[#001f3f] flex flex-col justify-center items-center`}
       >
         <a
-          href="#home"
+          href="/"
           onClick={handleCloseMenu}
           className="block px-4 py-2 text-center relative group hover:bg-[#f0f0f0] hover:text-black transition-colors duration-300"
         >
@@ -98,7 +98,7 @@ export default function Navbar() {
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
         </a>
         <a
-          href="#about"
+          href="./AboutUs"
           onClick={handleCloseMenu}
           className="block px-4 py-2 text-center relative group hover:bg-[#f0f0f0] hover:text-black transition-colors duration-300"
         >
@@ -106,21 +106,14 @@ export default function Navbar() {
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
         </a>
         <a
-          href="#products"
+          href="/Services"
           onClick={handleCloseMenu}
           className="block px-4 py-2 text-center relative group hover:bg-[#f0f0f0] hover:text-black transition-colors duration-300"
         >
           Products
           <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
         </a>
-        <a
-          href="#contact"
-          onClick={handleCloseMenu}
-          className="block px-4 py-2 text-center relative group hover:bg-[#f0f0f0] hover:text-black transition-colors duration-300"
-        >
-          Contact
-          <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
-        </a>
+       
         <a
           href="#contact"
           onClick={handleCloseMenu}

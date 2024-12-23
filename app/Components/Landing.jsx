@@ -4,6 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FiSettings, FiTool, FiBriefcase, FiTrendingUp, FiCheckCircle } from 'react-icons/fi';
 
+
+
 export default function Home() {
   useEffect(() => {
     AOS.init({ duration: 1200 });
@@ -100,6 +102,7 @@ export default function Home() {
       </section>
 
 
+    
 {/* Services Section */}
 <section className="py-16 bg-white">
   <div className="container mx-auto px-6">
