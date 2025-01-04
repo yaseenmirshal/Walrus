@@ -8,7 +8,7 @@ const UnderConstruction = () => {
         width={100} height={100}
           src="./walruslogo.png" // Replace with your client's logo URL
           alt="Company Logo"
-          className="md:ml-36 ml-24 mb-6"
+          className="md:ml-36 ml-28 mb-6"
         />
         <h1 className="text-3xl font-bold text-gray-800 mb-4">
           Website Under Construction
