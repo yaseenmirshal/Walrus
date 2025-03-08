@@ -12,7 +12,7 @@ export default function Home() {
    <>
 
    {/* <Landing/> */}
-   <Warning/>
+   {/* <Warning/> */}
 
    <Navbar/>
    <Landing/>
